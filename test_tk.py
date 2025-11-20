@@ -1,0 +1,10 @@
+import tkinter as tk
+print("python:", __import__("sys").executable)
+print("tk:", tk.TkVersion, "tcl:", tk.TclVersion)
+root = tk.Tk()
+root.title("tk test")
+root.geometry("200x80")
+tk.Label(root, text="Tkinter OK").pack(padx=20, pady=20)
+root.update()
+root.destroy()
+print("Tk test finished")
