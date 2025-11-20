@@ -9,7 +9,7 @@ from main_gui import HospitalGUI
 # Dummy credentials
 
 VALID_USERNAME = "admin@hms.com"
-VALID_PASSWORD = "12345"
+VALID_PASSWORD = "1234"
 
 
 class LoginApp:
